@@ -1,7 +1,7 @@
 FROM payara/server-full:6.2024.6
 
 # Copiar seu arquivo WAR para o diretório de implantação do Payara
-COPY target/seu-aplicativo.war ${DEPLOY_DIR}
+COPY target/SPGE.war ${DEPLOY_DIR}
 
 # Expor a porta que o Payara usa
 EXPOSE 8080
